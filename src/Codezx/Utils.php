@@ -26,7 +26,7 @@ class Utils {
                         $player->sendTitle(Loader::getInstance()->getConfig()->get("button")["title-message"], Loader::getInstance()->getConfig()->get("button")["subtitle-message"]);
                     }
                     if(Loader::getInstance()->getConfig()->get("button")["message"] === true){
-                        $player->sendMessage(Loader::getInstance()->getConfig()->get("prefix").Loader::getInstance()->getConfig()->get("button")["message"]);
+                        $player->sendMessage(Loader::getInstance()->getConfig()->get("button")["message"]);
                     }
                 break;
             }

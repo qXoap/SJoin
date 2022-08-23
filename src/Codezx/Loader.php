@@ -16,7 +16,6 @@ class Loader extends PluginBase {
     public function onEnable(): void{
         self::$instance = $this;
         $this->utils = new Utils();
-        $this->prefix = $this->getConfig()->get("prefix");
         Server::getInstance()->getPluginManager()->registerEvents(new EventListener(), $this);
     }
 

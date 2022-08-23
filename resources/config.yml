@@ -1,5 +1,4 @@
-#prefix
-prefix: "Prefix > "
+
 #Form Setting
 join-menu: true
 form:
