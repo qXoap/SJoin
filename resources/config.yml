@@ -1,4 +1,5 @@
-
+#prefix
+prefix: "Prefix > "
 #Form Setting
 join-menu: true
 form:
@@ -19,7 +20,7 @@ button:
   #messages
   title-message: "SJOIN"
   subtitle-message: "SJOIN"
-  message: "Configure in Config.yml"
+  simple-message: "Configure in Config.yml"
   tip-message: "Configure in config.yml"
   popup-message: "Cofigure in config.yml"
 
