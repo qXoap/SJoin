@@ -1,0 +1,31 @@
+#prefix
+prefix: "Prefix > "
+#Form Setting
+join-menu: true
+form:
+  menu-title: "SJOIN"
+  menu-content: "Configure in Config.yml"
+  menu-button: "Configure in Config.yml"
+  #set 0 to texture, set 1 form url
+  menu-button-image-type: 0
+  menu-button-image: "textures/ui/redX1"
+
+#button setting
+button:
+  #set true to set message format, set false to desactive message format
+  tip: false
+  title: true
+  message: true
+  popup: false
+  #messages
+  title-message: "SJOIN"
+  subtitle-message: "SJOIN"
+  message: "Configure in Config.yml"
+  tip-message: "Configure in config.yml"
+  popup-message: "Cofigure in config.yml"
+
+#messages
+messages:
+  #use {NAME} to see player name
+  join: "{NAME} has Been Joined"
+  quit: "{NAME} it left the server"
